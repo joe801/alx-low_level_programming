@@ -2,9 +2,7 @@
 /**
  * main - Entry point
  *
- * pints - prints out a statement
- *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
