@@ -19,7 +19,7 @@ int print_last_digit(int i)
 	}
 	else
 	{
-		_putchar(last +48);
+		_putchar(last + 48);
 		return (last);
 	}
 }
