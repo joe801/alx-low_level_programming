@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_numers - Entry point
+ * more_numbers - Entry point
  *
  * prints numbers 1 to 14 10 times
  *
