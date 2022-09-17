@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Entry point
+ * more_numbers - Entry point
  *
- * prints alphabets from a - z 10 times
+ * prints numbers 1 to 14 10 times
  *
  * Return: Void (success)
  */
 
-void print_alphabet_x10(void)
+void more_numbers(void)
 {
 	int i, j;
 
