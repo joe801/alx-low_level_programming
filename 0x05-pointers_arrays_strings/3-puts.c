@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * swap_int - entry point
+ * _puts - entry point
  *
- * swap value of pointer a and b
+ * prints out characters in string
  *
- * @a: pointer int
- * @b: pointer int
+ * @str: pointer char
  *
  * Return: void (success).
  */
