@@ -5,31 +5,25 @@
  *
  * compares 2 string for greater, lesser or equal
  *
- * @s1: first char for comparison
- * @s2: second char for comparison
+ * @a: arrar
+ * @n: size of array
  *
- * Return: j
+ * Return: void
  */
 
 void reverse_array(int *a, int n)
 {
-	int i = 0, j = 0;
-	int b[100];
+	int i = 0, j, mem;
 
-	while (j < n)
+	while (i < (n - 1))
 	{
-		b[j] = a[j];
-		j++;
-	}
-	while (i < n)
-	{
-		if (i < (n / 2))
+		j = i + 1;
+		while (j > 0)
 		{
-			a[i] = a[n - (i + 1)];
-		}
-		else
-		{
-			a[i] = b[n - (i +1)];
+			mem = a[j];
+			a[j] = a[j - 1];
+			a[j - 1] = mem;
+			j--;
 		}
 		i++;
 	}
