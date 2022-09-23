@@ -24,6 +24,8 @@ char *cap_string(char *s)
 					s[i + 1] = s[i + 1] - 32;
 			}
 		}
+		if (s[i] == 9)
+			s[i] = 32;
 		i++;
 	}
 	return (s);
