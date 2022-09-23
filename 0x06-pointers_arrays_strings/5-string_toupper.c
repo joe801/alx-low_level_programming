@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _strcat - entry point
+ * string_toupper - entry point
  *
- * concatenates two strings
+ * converting lowercase to uppercase
  *
- * @dest: pointer char
- * @src: pointer src
+ * @s: string input
  *
- * Return: *dest
+ * Return: s
  */
 char *string_toupper(char *s)
 {
