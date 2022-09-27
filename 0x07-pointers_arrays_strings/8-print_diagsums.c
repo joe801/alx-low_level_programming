@@ -22,5 +22,5 @@ void print_diagsums(int *a, int size)
 			diag_b += a[i];
 		i++;
 	}
-	printf("%d, %d \n", diag_a, diag_b);
+	printf("%d, %d\n", diag_a, diag_b);
 }
