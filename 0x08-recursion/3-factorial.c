@@ -4,7 +4,7 @@
  *
  * @n: int argument
  *
- * Return - factorial of n
+ * Return: factorial of n
  */
 
 int factorial(int n)
