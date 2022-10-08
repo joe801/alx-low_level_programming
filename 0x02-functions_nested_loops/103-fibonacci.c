@@ -8,22 +8,23 @@
 
 int main(void)
 {
-	long int j, k, next, sum;
+	int sum;
+	long int j, k, next;
 
-	j = 0;
+	j = 1;
+	sum = 0;
 	k = 1;
-	next = j + k;
-	printf("%ld", next);
+	next = 0;
 	while (next <= 4000000)
 	{
+		next = j + k;
 		j = k;
 		k = next;
-		next = j + k;
-		if (next % 2 == 0)
+		if ((next % 2) == 0)
 		{
 			sum += next;
 		}
 	}
-	printf("%ld\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
