@@ -8,19 +8,20 @@
 
 int main(void)
 {
-	int i, j, k, next;
+	int i;
+	long int j, k, next;
 
-	i = 0;
+	i = 1;
 	j = 0;
 	k = 1;
 	next = j + k;
-	printf("%d", next);
+	printf("%ld", next);
 	while (i < 50)
 	{
 		j = k;
 		k = next;
 		next = j + k;
-		printf(", %d", next);
+		printf(", %ld", next);
 		i++;
 	}
 	printf("\n");
